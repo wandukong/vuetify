@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer app color="#002a56de" dark v-if="drawer" permanent>
+    <v-navigation-drawer app color="#002a56de" dark v-model="drawer">
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6"> SeUnGwAn </v-list-item-title>
