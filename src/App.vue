@@ -27,6 +27,28 @@
             <v-list-item-title>ABOUT</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+
+        <v-list-group :value="false" prepend-icon="mdi-palette-outline" active-class="blue--text">
+          <template v-slot:activator>
+            <v-list-item-title>styles</v-list-item-title>
+          </template>
+          <v-list-item to="/styles/textandtypography" color="white">
+            <v-list-item-icon>
+              <v-icon>mdi-format-font</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title>Text & Typography</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+          <v-list-item to="/styles/spacing" color="white">
+            <v-list-item-icon>
+              <v-icon>mdi-format-line-spacing</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title>Margin & Padding</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list-group>
       </v-list>
     </v-navigation-drawer>
 
